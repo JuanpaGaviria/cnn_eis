@@ -238,4 +238,4 @@ if __name__ == "__main__":
 
     eis_data.to_csv("results.csv")
 
-    upload_datastorage("results.csv", "dataset", "azureml-blobstore-cf5fe0c9-45bd-4d83-a1ac-33424dd9236b", "DefaultEndpointsProtocol=https;AccountName=cnneiswsupb6608750893;AccountKey=+OXzRPxfHwPS+zqpCXTikLzcv0bRO9VkAuAkQ0egc78Ov6ErQUlf3ey7hbljr1YOUdDntfoa+mf7+ASt14iUhQ==;EndpointSuffix=core.windows.net")
+    upload_datastorage("results.csv", "dataset", "", "")
